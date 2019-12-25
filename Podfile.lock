@@ -1,0 +1,16 @@
+PODS:
+  - MumbleKit (0.0.4)
+
+DEPENDENCIES:
+  - MumbleKit (from `../../Projects/MumbleKit`)
+
+EXTERNAL SOURCES:
+  MumbleKit:
+    :path: "../../Projects/MumbleKit"
+
+SPEC CHECKSUMS:
+  MumbleKit: eec1f60f99968149e70276ce25c70d327dc66ad4
+
+PODFILE CHECKSUM: 80d551ef01d0b61435c1d0d2ebc650183d2121b5
+
+COCOAPODS: 1.8.4
