@@ -2,5 +2,5 @@
 platform :ios, '9.0'
 
 target 'Mumble Client' do
-  pod 'MumbleKit'
+  pod 'MumbleKit', :git => 'https://github.com/Pixsel-Limited/MumbleKit-iOS', :tag => '0.0.5'
 end

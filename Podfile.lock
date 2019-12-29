@@ -1,16 +1,22 @@
 PODS:
-  - MumbleKit (0.0.4)
+  - MumbleKit (0.0.5)
 
 DEPENDENCIES:
-  - MumbleKit (from `../../Projects/MumbleKit`)
+  - MumbleKit (from `https://github.com/Pixsel-Limited/MumbleKit-iOS`, tag `0.0.5`)
 
 EXTERNAL SOURCES:
   MumbleKit:
-    :path: "../../Projects/MumbleKit"
+    :git: https://github.com/Pixsel-Limited/MumbleKit-iOS
+    :tag: 0.0.5
+
+CHECKOUT OPTIONS:
+  MumbleKit:
+    :git: https://github.com/Pixsel-Limited/MumbleKit-iOS
+    :tag: 0.0.5
 
 SPEC CHECKSUMS:
-  MumbleKit: eec1f60f99968149e70276ce25c70d327dc66ad4
+  MumbleKit: 98c51af6c2ff27cc220e28010a5f5d2d16c7a3b6
 
-PODFILE CHECKSUM: 80d551ef01d0b61435c1d0d2ebc650183d2121b5
+PODFILE CHECKSUM: e2d8797f9c668b4a602aa1415628371c6d504d25
 
 COCOAPODS: 1.8.4
