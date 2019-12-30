@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         connection?.setDelegate(self)
         serverModel = MKServerModel(connection: connection)
         serverModel?.addDelegate(self)
-        connection?.connect(toHost: hostTextField.text, port: UInt(portTextField.text ?? "") ?? 80)
+        connection?.setIgnoreSSLVerification(true)
+        connection?.connect(toHost: hostTextField.text, port: UInt(portTextField.text ?? "") ?? 64738)
     }
 }
 
